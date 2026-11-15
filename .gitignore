@@ -1,0 +1,19 @@
+# 安装时自动生成的备份
+backups/
+
+# 打包产物
+*.zip
+*.7z
+
+# 提取出的待翻译清单
+missing.csv
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini

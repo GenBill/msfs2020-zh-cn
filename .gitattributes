@@ -1,0 +1,10 @@
+# 统一换行符策略
+* text=auto
+
+# 翻译数据是精确格式，禁止任何换行符转换
+payload/** -text
+
+# 脚本与文档
+*.ps1   text eol=crlf
+*.md    text eol=lf
+*.csv   text eol=lf
